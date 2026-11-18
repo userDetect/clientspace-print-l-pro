@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="print-demo-id" content="l-pro">
+<meta name="business" content="L-PRO">
+<meta name="description" content="Цифровая и офсетная печать для бизнеса, упаковка для CD и DVD, макеты и защитная отделка.">
+<title>L-PRO · концепт сайта ClientSpace</title>
+<link rel="stylesheet" href="site.css">
+<style>:root{--accent:#444b99;--cover:color-mix(in srgb,#444b99,#10151c 62%);--cover-tint:color-mix(in srgb,#444b99,#fff9ee 87%)}</style>
+<script src="site.js" defer></script>
+</head>
+<body class="press variant-1">
+<div class="demo-bar"><div class="shell"><span>Демо-концепт студии ClientSpace</span><a href="https://l-pro.com/uslugi/poligraficheskie-uslugi/" rel="noopener">Действующий сайт ↗</a></div></div>
+<header class="site-header"><div class="shell">
+<a class="brand" href="#top"><span class="mark" aria-hidden="true">L</span>L-PRO</a>
+<nav aria-label="Разделы сайта"><a href="#catalog">Продукция и услуги</a><a href="#terms">Условия</a><a href="#contacts">Контакты</a></nav>
+<a class="cta secondary" href="#order">Заполнить бриф <span aria-hidden="true">↘</span></a>
+</div></header>
+<main id="top">
+<div class="shell"><section class="hero" aria-labelledby="hero-title">
+<div class="hero-copy"><p class="eyebrow">Нижний Новгород · Типография</p><h1 id="hero-title">Полиграфия и упаковка полного цикла</h1><p>Цифровая и офсетная печать для бизнеса, упаковка для CD и DVD, макеты и защитная отделка.</p>
+<div class="hero-actions"><a class="cta" href="#order">Подготовить бриф для расчёта <span aria-hidden="true">↘</span></a><a class="cta secondary" href="#catalog">Посмотреть услуги</a></div>
+</div><figure class="hero-art with-photo"><img src="photo-1.webp" alt="Печатное оборудование L-PRO" fetchpriority="high"><figcaption>Печатное оборудование L-PRO</figcaption></figure></section></div>
+<section id="catalog" class="section shell">
+<div class="section-lead"><h2>Продукция и услуги</h2><label class="catalog-search"><span>Найти услугу</span><input id="catalog-search" type="search" placeholder="Начните вводить название"></label></div>
+<div class="products"><article class="product" data-catalog-item><div><h3>Буклеты и брошюры</h3><p>Офсетная или цифровая печать, разработка дизайна по запросу.</p></div><button type="button" data-product="Буклеты и брошюры" aria-label="В бриф — Буклеты и брошюры">↗</button></article><article class="product" data-catalog-item><div><h3>Визитки и листовки</h3><p>Деловая и рекламная полиграфия с возможностью ламинирования.</p></div><button type="button" data-product="Визитки и листовки" aria-label="В бриф — Визитки и листовки">↗</button></article><article class="product" data-catalog-item><div><h3>Календари</h3><p>Карманные, квартальные, настольные и настенные календари.</p></div><button type="button" data-product="Календари" aria-label="В бриф — Календари">↗</button></article><article class="product" data-catalog-item><div><h3>Этикетки и POS-материалы</h3><p>Этикетки, выставочные комплекты и материалы для точки продаж.</p></div><button type="button" data-product="Этикетки и POS-материалы" aria-label="В бриф — Этикетки и POS-материалы">↗</button></article><article class="product" data-catalog-item><div><h3>Упаковка CD и DVD</h3><p>Вкладыши, бумажные и картонные конверты, диджипаки.</p></div><button type="button" data-product="Упаковка CD и DVD" aria-label="В бриф — Упаковка CD и DVD">↗</button></article><article class="product" data-catalog-item><div><h3>Дизайн и отделка</h3><p>Разработка макета, ламинация и лакирование.</p></div><button type="button" data-product="Дизайн и отделка" aria-label="В бриф — Дизайн и отделка">↗</button></article></div><p id="no-products" hidden>По этому запросу ничего не найдено.</p>
+</section>
+
+<section id="order" class="order-wrap">
+<div class="shell order-grid"><div class="order-intro"><h2>Подготовить бриф для расчёта</h2><p>Укажите изделие и параметры заказа. По ним можно согласовать технологию, стоимость и срок.</p><div class="quick-picks"><button type="button" data-product="Буклеты и брошюры" class="quick-choice">Буклеты и брошюры</button><button type="button" data-product="Визитки и листовки" class="quick-choice">Визитки и листовки</button><button type="button" data-product="Календари" class="quick-choice">Календари</button></div></div>
+<form id="brief" class="order-box">
+<div class="form-grid">
+<label class="wide"><span>Вид заказа</span><select name="product" required><option value="">Выберите услугу</option><option value="Буклеты и брошюры">Буклеты и брошюры</option><option value="Визитки и листовки">Визитки и листовки</option><option value="Календари">Календари</option><option value="Этикетки и POS-материалы">Этикетки и POS-материалы</option><option value="Упаковка CD и DVD">Упаковка CD и DVD</option><option value="Дизайн и отделка">Дизайн и отделка</option></select></label>
+<label class=""><span>Формат или размеры</span><input type="text" name="format"></label><label class=""><span>Тираж, шт.</span><input type="number" name="quantity" min="1" step="any"></label><label class=""><span>Бумага / материал</span><input type="text" name="paper"></label><label class=""><span>Покрытие</span><select name="finish"><option value="">Выбрать</option><option value="Без покрытия">Без покрытия</option><option value="Глянцевая ламинация">Глянцевая ламинация</option><option value="Матовая ламинация">Матовая ламинация</option><option value="Лак">Лак</option><option value="Уточнить">Уточнить</option></select></label><label class="wide"><span>Готовый макет</span><input type="file" name="artwork" aria-describedby="file-hint"><small id="file-hint">Можно указать макет, чертёж или фото. В демо сохранится имя файла.</small></label><label class="wide"><span>Цветность, упаковка и срок</span><textarea name="notes" rows="3"></textarea></label><label class=""><span>Контакт для ответа (необязательно)</span><input type="text" name="contact"></label>
+</div>
+<button class="cta" type="submit">Сформировать бриф <span aria-hidden="true">↗</span></button>
+<small>Демонстрационная форма. Введённые данные остаются в браузере.</small>
+<div class="summary" id="brief-summary" tabindex="-1" hidden><pre id="summary-text"></pre>
+<button class="cta secondary" type="button" id="copy-brief">Копировать</button>
+<button class="cta secondary" type="button" id="download-brief">Скачать текст</button>
+<span id="copy-status" role="status"></span></div>
+</form></div></section>
+<section id="terms" class="section shell"><div class="section-lead"><h2>Условия заказа</h2><p>Итоговые параметры, стоимость и дату выполнения подтверждает компания.</p></div><div class="facts"><details><summary>На странице услуг подтверждены цифровая и офсетная печать, рекламная продукция и упаковка для дисков.</summary><p><a href="https://l-pro.com/uslugi/poligraficheskie-uslugi/">Источник на сайте компании ↗</a></p></details><details><summary>У L-PRO есть отдельный калькулятор тиражирования CD и DVD.</summary><p><a href="https://l-pro.com/ceny-na-tirazhirovanie-cd-dvd-diskov/">Источник на сайте компании ↗</a></p></details><details><summary>В карточке буклетов описаны стандартные форматы и работа с готовым макетом.</summary><p><a href="https://l-pro.com/uslugi/poligraficheskie-uslugi/%D0%B1%D1%83%D0%BA%D0%BB%D0%B5%D1%82/">Источник на сайте компании ↗</a></p></details></div></section>
+</main>
+<footer id="contacts" class="contacts"><div class="shell">
+<div><h3>L-PRO</h3><p>Нижний Новгород · ул. Родионова, 192Д</p><div class="footer-links"><a href="tel:+78312281128">+7 (831) 228-11-28</a><a href="mailto:b2b@l-pro.com">b2b@l-pro.com</a><a href="https://l-pro.com/uslugi/poligraficheskie-uslugi/">l-pro.com</a></div></div>
+<div><p>Демонстрационная версия по открытым материалам компании.</p><div class="footer-links"><a href="https://client-space.ru/">Сайт студии ClientSpace ↗</a></div></div>
+</div></footer>
+</body></html>
