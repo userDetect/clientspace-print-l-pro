@@ -1,11 +1,9 @@
-# L-PRO · демо ClientSpace
+# L-PRO · концепт ClientSpace
 
-[Демо](https://userdetect.github.io/clientspace-print-l-pro/) также можно открыть локально через любой статический HTTP-сервер.
+- [Демо сайта](https://userdetect.github.io/clientspace-print-l-pro/)
+- [Демо CRM](https://userdetect.github.io/clientspace-print-l-pro/crm.html)
+- [Действующий сайт](https://l-pro.com/uslugi/poligraficheskie-uslugi/)
 
-Форма формирует черновик в браузере. Для приёма заказов понадобится подключить канал доставки заявок.
-
-[Действующий сайт](https://l-pro.com/uslugi/poligraficheskie-uslugi/)
-
-## Источники изображений
+Форма и CRM используют IndexedDB. Созданные в демо заявки и файлы хранятся в браузере. Сравнивать форму и CRM нужно в одном браузерном профиле.
 
 - [Печатное оборудование L-PRO](https://l-pro.com/uslugi/poligraficheskie-uslugi/)
